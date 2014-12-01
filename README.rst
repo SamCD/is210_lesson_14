@@ -8,8 +8,8 @@ Homework #14
 :College: CUNY School of Professional Studies
 :Course-Name: Software Application Programming I
 :Course-Code: IS 210
-:Available: 2014-11-24T09:00:00-0400
-:Due-Date: 2014-12-01T09:00:00-0400
+:Available: 2014-12-01T09:00:00-0400
+:Due-Date: 2014-12-08T09:00:00-0400
 
 Overview
 ========
@@ -58,7 +58,7 @@ Numpy is not just amazingly fast at processing complex arrays of data in
 computer memory. It can also read in bucket loads of data stored in text
 files very quickly.
 
-Write a program the uses numpy within a function to determin the mean and
+Write a program the uses numpy within a function to determine the mean and
 standard deviation of the raw values stored in the ``data.txt`` file.
 
 Specifications
@@ -100,5 +100,3 @@ credit.
 
 .. _GitHub: https://github.com/
 .. _Python String Documentation: https://docs.python.org/2/library/stdtypes.html
-.. _Selection Sort: https://en.wikipedia.org/wiki/Selection_sort
-.. _Quicksort: https://en.wikipedia.org/wiki/Quicksort
