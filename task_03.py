@@ -14,8 +14,8 @@ def numpy_task03(data_file):
     except IOError:
         print "Cannot read file"
     else:
-        stdev = np.std(table, dtype=np.int64)
-        mean = np.mean(table, dtype=np.int64)
+        stdev = np.std(table)
+        mean = np.mean(table)
     finally:
         retval = (int(mean), int(stdev))
     try:
