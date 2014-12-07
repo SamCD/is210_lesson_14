@@ -11,7 +11,7 @@ def numpy_task03(data_file):
 
     try:
         table = np.loadtxt(data_file)
-    except Exception:
+    except IOError:
         print "Cannot read file"
     else:
         stdev = np.std(table, dtype=np.int64)
@@ -20,5 +20,5 @@ def numpy_task03(data_file):
         retval = (mean, stdev)
     try:
         return retval
-    except Exception:
+    except IOError:
         print "Cannot write file"

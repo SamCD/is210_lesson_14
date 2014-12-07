@@ -4,6 +4,7 @@
 
 import numpy.random as rand
 
+
 def numpy_task02(mean, stdev, number=100):
     """Creates a random assortment of numbers using a normal distribution with\
     a given mean and standard distribution.
