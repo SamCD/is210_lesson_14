@@ -17,7 +17,7 @@ def numpy_task03(data_file):
         stdev = np.std(table, dtype=np.int64)
         mean = np.mean(table, dtype=np.int64)
     finally:
-        retval = (mean, stdev)
+        retval = (int(mean), int(stdev))
     try:
         return retval
     except IOError:
